@@ -14,7 +14,7 @@ header {
     flex: 0 0 auto;
     z-index: 0;
     width: 100%;
-    height: 237px;
+    height: 292px;
     top: 0;
     left: 0;
     overflow: auto;
@@ -33,6 +33,7 @@ header {
     justify-content: space-between;
 }
 .phone{
+    text-align: right;
     color: gray;
     font-size: 40px;
 
@@ -86,6 +87,7 @@ nav li{
     border-bottom: solid 3px white;
 }
 .intro{
+
     flex: 1 0 auto;
     width: 100%;
     height: 500px;
@@ -104,7 +106,7 @@ nav li{
 }
 .content{
     position: relative;
-
+z-index: 0;
     line-height: 22px;
     width: 100%;
     max-width: 1200px;
@@ -175,13 +177,17 @@ footer{
 
 }
 .myslider{
+    position: relative;
+    z-index: 0;
     width: 100%;
     max-width: 1700px;
     height: 100%;
     margin: 0 auto;
-  text-align: center;
+    text-align: center;
 }
 .slider-item{
+    position: relative;
+    z-index: 0;
     height: 500px;
     text-align: center;
     margin: 0  auto;
@@ -197,6 +203,7 @@ footer{
 }
 /* The Modal (background) */
 .modal {
+
     font-size: 14px;
     margin: 0 auto;
     display: none; /* Hidden by default */
@@ -213,12 +220,15 @@ footer{
 
 /* Modal Content/Box */
 .modal-content {
-    background-color: #fefefe;
+    text-align: center;
+    position: relative;
+    z-index: 100;
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
-    width: 30%; /* Could be more or less, depending on screen size */
-    border-radius: 60px;
+    width: 467px;
+    height: 579px;/* Could be more or less, depending on screen size */
+    background: white;
 
 }
 
@@ -254,4 +264,16 @@ footer{
     display: flex;
     justify-content: center;
 
+}
+.input_data{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 340px;
+    height: 41px;
+}
+.massege{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 350px;
+    height: 141px;
 }
