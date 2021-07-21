@@ -9,6 +9,9 @@ var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks the button, open the modal
 btn.onclick = function() {
+    $( "#myModal" ).fadeIn( "slow", function() {
+        // Animation complete
+    });
     modal.style.display = "block";
 }
 
